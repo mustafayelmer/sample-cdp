@@ -1,0 +1,76 @@
+export enum DatePartEnum {
+    MORNING = 'MORNING', // 07-11
+    NOON = 'NOON', // 11-17
+    EVENING = 'EVENING', // 17-22
+    NIGHT = 'NIGHT', // 22-03
+    DAWN = 'DAWN', // 03-07
+}
+
+export enum GenderEnum {
+    MALE = 'MALE',
+    FEMALE = 'FEMALE',
+    OTHER = 'OTHER',
+}
+
+export enum ProductClusterEnum {
+    QUICK_PICKERS = 'QUICK_PICKERS',
+    STORAGE_SOLVERS = 'STORAGE_SOLVERS',
+    LASTING_COMFORT = 'LASTING_COMFORT',
+}
+
+export enum TouchpointEnum {
+    BRAND_WEBSITE = 'BRAND_WEBSITE',
+    E_COMMERCE_STORE = 'E_COMMERCE_STORE',
+    SOCIAL_MEDIA = 'SOCIAL_MEDIA',
+    ONLINE_STORE = 'ONLINE_STORE',
+    M2M_SDK = 'M2M_SDK',
+    SEARCH_ENGINE = 'SEARCH_ENGINE',
+    CAMPAIGN_LINK = 'CAMPAIGN_LINK',
+    PUSH_NOTIFICATION = 'PUSH_NOTIFICATION',
+    SMS_CODE = 'SMS_CODE',
+    MANUAL_CODE = 'MANUAL_CODE',
+}
+
+export enum LocationTypeEnum {
+    BRAND_WEBSITE = 'BRAND_WEBSITE',
+    E_COMMERCE_STORE = 'E_COMMERCE_STORE',
+    SOCIAL_MEDIA = 'SOCIAL_MEDIA',
+    ONLINE_STORE = 'ONLINE_STORE',
+    M2M_SDK = 'M2M_SDK',
+}
+
+export enum JourneyPhaseEnum {
+    BROWSE = 'BROWSE',
+    FILTERING = 'FILTERING',
+    COMPARING = 'COMPARING',
+    LEARNING_COMMITTING = 'LEARNING_COMMITTING',
+    COMPLETION = 'COMPLETION',
+    CANCEL_PAYMENT = 'CANCEL_PAYMENT',
+    SEARCHING = 'SEARCHING',
+}
+
+export enum PlaceOfPurchaseEnum {
+    STORE = 'STORE',
+    ONLINE = 'ONLINE',
+    M2M_SDK = 'M2M_SDK  ',
+}
+
+export enum NeedEnum {
+    REPLACEMENT = 'REPLACEMENT',
+    UPGRADE_ITEM = 'UPGRADE_ITEM',
+    REMODEL = 'REMODEL',
+}
+
+export enum MissionEnum {
+    SOLUTION_SEEKING = 'SOLUTION_SEEKING',
+    RECREATIONAL_SHOPPING = 'RECREATIONAL_SHOPPING',
+}
+
+export enum TriggerEnum {
+    PRICE = 'PRICE',
+    TIME = 'TIME',
+    SEASON = 'SEASON',
+    EVENT = 'EVENT',
+    RETAILER = 'RETAILER',
+    BUDGET = 'BUDGET',
+}

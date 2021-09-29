@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "e63f4bd1-18f2-4605-90d7-3811230d7941",
+		"name": "ikea",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "batch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/batch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"batch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "datamart/:code",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/datamart/4055",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"datamart",
+						"4055"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
